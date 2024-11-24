@@ -63,11 +63,11 @@ resetBtn.addEventListener('click', function () {
 
 function checkGameStatus() {
     if (p1Score === maxValue) {
-        displayGameOver("Player One Wins!");
+        displayGameOver("Team One Wins!");
         p1Display.classList.add('winner');
         p2Display.classList.add('loser');
     } else if (p2Score === maxValue) {
-        displayGameOver("Player Two Wins!");
+        displayGameOver("Team Two Wins!");
         p2Display.classList.add('winner');
         p1Display.classList.add('loser');
     }
