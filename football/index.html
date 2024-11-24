@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Score Counter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="team" id="teamA">
+        <h2>Team A</h2>
+        <div class="score">
+          <p>Score: <span id="scoreA">0</span></p>
+          <button onclick="incrementScore('A')">+</button>
+          <button onclick="decrementScore('A')">−</button>
+        </div>
+        <div class="cards">
+          <p>Yellow Cards: <span id="yellowCardsA">0</span></p>
+          <button class="yellow-card" onclick="addYellowCard('A')">+</button>
+          <button class="yellow-card" onclick="removeYellowCard('A')">−</button>
+          <p>Red Cards: <span id="redCardsA">0</span></p>
+          <button class="red-card" onclick="addRedCard('A')">+</button>
+          <button class="red-card" onclick="removeRedCard('A')">−</button>
+        </div>
+      </div>
+      <div class="team" id="teamB">
+        <h2>Team B</h2>
+        <div class="score">
+          <p>Score: <span id="scoreB">0</span></p>
+          <button onclick="incrementScore('B')">+</button>
+          <button onclick="decrementScore('B')">−</button>
+        </div>
+        <div class="cards">
+          <p>Yellow Cards: <span id="yellowCardsB">0</span></p>
+          <button class="yellow-card" onclick="addYellowCard('B')">+</button>
+          <button class="yellow-card" onclick="removeYellowCard('B')">−</button>
+          <p>Red Cards: <span id="redCardsB">0</span></p>
+          <button class="red-card" onclick="addRedCard('B')">+</button>
+          <button class="red-card" onclick="removeRedCard('B')">−</button>
+        </div>
+      </div>
+      
+  <script src="script.js"></script>
+</body>
+</html>
