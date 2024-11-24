@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .team {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .team h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  /* Team A and Team B styles */
+  #teamA {
+    background-color: #e6f7ff;
+    border: 2px solid #0099cc;
+  }
+  
+  #teamB {
+    background-color: #fff0f0;
+    border: 2px solid #ff4d4d;
+  }
+  
+  /* Score and Cards styling */
+  .score, .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out, background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Animation for button click */
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Yellow and red card styles */
+  button.yellow-card {
+    background-color: #ffcc00;
+  }
+  
+  button.red-card {
+    background-color: #ff3333;
+  }
+  
+  button.yellow-card:hover {
+    background-color: #e6b800;
+  }
+  
+  button.red-card:hover {
+    background-color: #cc0000;
+  }
+  
